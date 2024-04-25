@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*, *::before {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    color: black;
+    font-family: "Jost", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280PX;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background: linear-gradient(30deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(../img/back__head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+header * {
+    color: white;
+}
+
+.header {
+    width: 1060PX;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 35px;
+}
+
+.nav * {
+    font-size: 24px;
+}
+
+
+
+.main_head {
+    padding-top: 175px;
+}
+
+.main_text h1 {
+    font-size: 50px;
+    width: 900px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.main_text p {
+    font-size: 26px;
+    width: 900px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    transform: translateY(-180%);
+}
+
+.card {
+    height: auto;
+    padding: 30px 10px;
+    background: #b9b9b9;
+    max-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all ease 3s;
+}
+
+.card h1 {
+    font-size: 26px;
+}
+
+
+.cards img {
+    width: 70px;
+    padding: 20px;
+}
+
+.about {
+    display: none;
+    transition: all 3s;
+}
+
+.about_prof {
+    margin-top: 290px;
+}
+
+.about_prof h3 {
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.about_prof p {
+    font-size: 20px;
+    width: 800px;
+}
+
+.reg {
+    border-top: 1px solid grey;
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+.text {
+    width: 50%;
+    height: 100px;
+}
+
+button {
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: darkslateblue;
+    color: #ffffff;
+    transition: 1s;
+    margin-top: 50px;
+}
+
+button:hover {
+    background: rgb(112, 112, 255);
+}
+.card:hover{
+    transform: translateY(-10%);
+    transition:all .2s;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.nav p:hover {
+    transition: all 1s;
+    border-bottom: 1px solid white;
+    transform: translateY(-5px);
+}
+
+.registration h1 {
+    padding-bottom: 30px;
+}
